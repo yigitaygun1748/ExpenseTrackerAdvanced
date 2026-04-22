@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Food",
+    "limit": 1000
+  },
+  {
+    "category": "Transportation",
+    "limit": 800
+  },
+  {
+    "category": "Shopping",
+    "limit": 300
+  },
+  {
+    "category": "Entertainment",
+    "limit": 200
+  },
+  {
+    "category": "Housing",
+    "limit": 500
+  },
+  {
+    "category": "Education",
+    "limit": 1000
+  },
+  {
+    "category": "Other",
+    "limit": 100
+  }
+]
