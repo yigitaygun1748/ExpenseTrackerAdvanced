@@ -1,82 +1,76 @@
 # Expense Tracker
 
-This is a simple expense tracker project written in Python.
-I built it to practice working with files, data handling, and basic visualization.
+This is a simple expense tracker project written in Python.  
+I built it to practice working with files, data handling, and data visualization.
 
-The program lets you record your daily expenses, organize them into categories, and keep track of your spending.
+The program allows you to record expenses, categorize them, search through records, and analyze spending with charts and budget tracking.
 
 ---
 
 ## Features
 
-* Add new expenses with date and category
-* View and filter expenses
-* Search past records
-* Basic budget warning system
-* Simple bar chart visualization (Turtle)
-* Data is stored in a JSON file
+- Add new expenses with date, category, and description  
+- View all saved expenses  
+- Search expenses by keyword (category or description)  
+- Budget tracking system (alerts when limits are exceeded)  
+- Data visualization using bar chart and pie chart (Matplotlib)  
+- Data stored in JSON files  
 
 ---
 
 ## Technologies
 
-* Python 3
-* JSON
-* Turtle (for visualization)
+- Python 3  
+- JSON (data storage)  
+- Matplotlib (data visualization)  
+- Collections (for grouping data)
 
 ---
 
 ## Getting Started
 
-### 1. Clone the repository
+### 1. Clone the repository  
+git clone https://github.com/your-username/expense-tracker.git  
 
-```
-git clone https://github.com/your-username/expense-tracker.git
-```
+### 2. Go to project folder  
+cd expense-tracker  
 
-### 2. Go into the project folder
+### 3. Install dependencies  
+pip install matplotlib  
 
-```
-cd expense-tracker
-```
-
-### 3. Run the program
-
-```
-python main.py
-```
+### 4. Run the program  
+python main.py  
 
 ---
 
 ## Notes
 
-Make sure Python is installed on your system.
-The data will be saved automatically in a JSON file.
+- Make sure Python 3 is installed  
+- If `expenses.json` or `budgets.json` does not exist, the program will handle it automatically  
+- All data is saved locally in JSON format  
 
 ---
 
 ## Project Structure
 
-```
-expense-tracker/
-│── main.py
-│── data.json
-│── visualization.py
-│── README.md
-```
+expense-tracker/  
+│── main.py  
+│── expenses.json  
+│── budgets.json  
+│── README.md  
 
 ---
 
-## Future Ideas
+## Future Improvements
 
-* Add a simple GUI
-* Improve charts
-* Add monthly reports
+- Add GUI (Tkinter or web interface)  
+- Monthly and yearly expense reports  
+- Export data to Excel or PDF  
+- Advanced analytics dashboard  
 
 ---
 
 ## Author
 
-Yiğit Aygün
+Yiğit Aygün  
 Computer Engineering Student
-
